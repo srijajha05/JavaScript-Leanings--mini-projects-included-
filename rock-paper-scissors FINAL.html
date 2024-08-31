@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rock-paper-scissors FINAL.css">
+</head>
+<body>
+    <!--Functions help us reuse the code and make the code a lot cleaner
+        It also makes our code easier to update-->
+    <p class="title">Rock Paper Scissors</p>
+    <button onclick="
+        playGame('rock');
+    ">
+        <img src="images/Rock.jpg" class="my-icon">
+    </button>
+    <button onclick="
+        playGame('paper');
+"  >
+        <img src="images/paper.jpg" class="my-icon">
+    </button>
+    <button onclick="
+        playGame('scissor');
+"   >
+        <img src="images/scissor.jpg"  class="my-icon">
+    </button>
+
+    <p class="js-result result">
+
+    </p>
+    <p class="js-move result">
+
+    </p>
+    <p class="js-score result"> 
+
+    </p>
+    <button class="reset-button" onclick="
+        score.wins = 0;
+        score.losses = 0;
+        score.ties = 0;
+        console.log('Score was reset');
+        localStorage.removeItem('score');
+        updateScoreElement();
+    ">
+        Reset Score
+    </button>
+    <script src="rock-paper-scissors FINAL.js">
+    </script>
+</body>
+</html>

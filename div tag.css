@@ -1,0 +1,93 @@
+.empty{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+.emptycircle{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.withborder{
+    border: rgb(240, 217, 217);
+    border-style: solid;
+    display: inline-block;
+    padding: 7px;
+}
+.head{
+    color: rgb(245, 244, 241);
+}
+.YoutubeMusic{
+    width: 350px;
+    border: rgb(56, 47, 47);
+    border-style: solid;
+    display: inline-block;
+    background-color: rgb(7, 7, 7);
+    color: grey;
+    padding: 10px;
+}
+.dp{
+    display: inline-block;
+    height: 35px;
+}
+.box{
+    border: rgb(236, 228, 228);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.LikeTwitter{
+    display: inline-block;
+}
+.text{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.Tweet{
+   margin-left: 70px;
+   margin-bottom: 10px;
+   height: 20px;
+   display: inline-block;
+   vertical-align: top;
+   
+}
+.tw{
+    border-radius: 40px;
+    border-width: 1px;
+    color: aliceblue;
+    background-color: rgb(147, 147, 241);
+    font-weight:bolder ;
+   
+    
+}
+.LikeInsta{
+    border: grey;
+    border-style:solid ;
+    display: inline-block;
+    width: 155px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    color: grey;
+}
+.Mypic{
+    border: grey;
+    border-style:solid ;
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}  
+.StyleButton{
+    background-color: rgb(11, 111, 241);
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+}
+.black{
+    color: black;
+}
